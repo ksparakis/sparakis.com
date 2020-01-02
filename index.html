@@ -1,11 +1,140 @@
 <!DOCTYPE html>
-<html {block:English}lang="en"{/block:English}>
+<html lang="en">
 <head>
-<meta http-equiv="refresh" content="0; url=http://sparakis.com/" />	
+    <meta charset="UTF-8">
+    <title>Konstantino Sparakis</title>
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js" ></script>
+
+
+    <script
+            src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TimelineMax.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="style/main.css">
+
+    <script src="js/gifTheater.js"></script>
+    <script src="js/libgif.js"></script>
+    <link rel="stylesheet" href="style/gifTheater.css">
+    <link rel="stylesheet" href="style/loading.css">
+    <script src="js/loading.js"></script>
 </head>
-<body>
-Redirecting to Tumblr Site... If redirect Doesn't work follow the following link:
-</br>
-<a src="sparakis.com">www.sparakis.com </a>
+
+
+<header>
+    <!--<div class="top-bar"></div>-->
+    <!--<div id="spinner" class="loadingio-spinner-ripple">-->
+        <!--<span style="text-align: center;display: inline-block;padding: 20px;">Hey, Give me a second while I setup shop!</span>-->
+        <!--<img style="max-width: 50px;" src="imgs/Ripple-4.2s-244px.gif" >-->
+    <!--</div>-->
+    <div id="spinner">
+        <span style="text-align: center;display: inline-block;padding: 20px; color:#fff; margin-top:5%; font-size: 2em">Loading...</span>
+
+        <div  class="loadingio-spinner-ripple-4xjmmvhinat"><div class="ldio-n2tb4y3116k">
+
+            <div></div><div></div>
+        </div></div>
+    </div>
+
+</header>
+
+<body class="kokoGradient">
+
+<div class="nav-header">
+    <nav>
+        <a href="https://github.com/ksparakis/Resume/blob/master/Resume-2018.pdf">Resume</a>
+        <a href="https://angel.co/ksparakis">Projects</a>
+        <a href="https://medium.com/broken-cipher">Blog</a>
+    </nav>
+</div>
+
+
+
+<div class="overlay" id="overlay">
+    <div id="box1"  class="fade-out-box"></div>
+    <div id="box2"  class="fade-out-box"></div>
+    <div id="box3"  class="fade-out-box"></div>
+    <div id="box4"  class="fade-out-box"></div>
+    <div id="box5"  class="fade-out-box"></div>
+    <div id="box6"  class="fade-out-box"></div>
+    <div id="box7"  class="fade-out-box"></div>
+    <div id="box8"  class="fade-out-box"></div>
+    <div id="box9"  class="fade-out-box"></div>
+    <div id="box10" class="fade-out-box"></div>
+    <div id="box11" class="fade-out-box"></div>
+    <div id="box12" class="fade-out-box"></div>
+    <div id="box13" class="fade-out-box"></div>
+    <div id="box14" class="fade-out-box"></div>
+    <div id="box15" class="fade-out-box"></div>
+    <div id="box16" class="fade-out-box"></div>
+    <div id="box17" class="fade-out-box"></div>
+    <div id="box18" class="fade-out-box"></div>
+    <div id="box19" class="fade-out-box"></div>
+    <div id="box20" class="fade-out-box"></div>
+    <div id="box21" class="fade-out-box"></div>
+    <div id="box22" class="fade-out-box"></div>
+    <div id="box23" class="fade-out-box"></div>
+    <div id="box24" class="fade-out-box"></div>
+    <div id="box25" class="fade-out-box"></div>
+    <div id="box26" class="fade-out-box"></div>
+    <div id="box27" class="fade-out-box"></div>
+    <div id="box28" class="fade-out-box"></div>
+    <div id="box29" class="fade-out-box"></div>
+    <div id="box30" class="fade-out-box"></div>
+    <div id="box31" class="fade-out-box"></div>
+    <div id="box32" class="fade-out-box"></div>
+    <div id="box33" class="fade-out-box"></div>
+    <div id="box34" class="fade-out-box"></div>
+    <div id="box35" class="fade-out-box"></div>
+    <div id="box36" class="fade-out-box"></div>
+    <div id="box37" class="fade-out-box"></div>
+    <div id="box38" class="fade-out-box"></div>
+    <div id="box39" class="fade-out-box"></div>
+    <div id="box40" class="fade-out-box"></div>
+    <div id="box41" class="fade-out-box"></div>
+    <div id="box42" class="fade-out-box"></div>
+    <div id="box43" class="fade-out-box"></div>
+    <div id="box44" class="fade-out-box"></div>
+    <div id="box45" class="fade-out-box"></div>
+    <div id="box46" class="fade-out-box"></div>
+    <div id="box47" class="fade-out-box"></div>
+    <div id="box48" class="fade-out-box"></div>
+    <div id="box49" class="fade-out-box"></div>
+    <div id="box50" class="fade-out-box"></div>
+</div>
+
+
+<div id="GifTheaterScreen" class="imgbox">
+
+</div>
+<div class="socials">
+    <a class="social-icon" href="https://github.com/ksparakis"><span>Github</span></a>
+    <a class="social-icon" href="https://www.linkedin.com/in/sparakis/"><span>Linkedin</span></a>
+    <a class="social-icon" href="https://angel.co/ksparakis"><span>Angel</span></a>
+    <a class="social-icon" href="https://twitter.com/sparakis"><span>Twitter</span></a>
+    <a class="social-icon" href="https://www.instagram.com/ksparakis/"><span>Instagram</span></a>
+</div>
+
+<div class="bottom-bar">
+    <div class="details-header">
+        <div class="about">
+            <h1> Konstantino <span class="accent">Sparakis</span></h1>
+            Software Engineer <a href="https://elixxir.io/" class="hashtag">@Elixxir</a> <br>
+            M.S. Computer Engineering <a href="https://www.bu.edu/eng/departments/ece/" class="hashtag">@BostonUniversity17'</a> <br><br>
+            <div style="font-weight: bold;margin:0 0 0 0;padding: 0 0 0 0;">About Me</div>
+            I became an engineer, from an entrepreneurial mindset. I wanted to build the ideas I fantasized about and build products that people would love to use. I’m the type of person to find a problem and do whatever it takes to solve it, and that’s how I’ve become a jack of all trades when it comes to software. I’ve worked with microprocessors, coded and designed UX/UI for mobile apps & websites, and all at the same time gotten my hands dirty in the backend building scalable, distributed systems.  During my masters degree I focused on computer security and cryptography which has launched me into the world of blockchain, where I’m looking to build & revolutionize the world, making security and privacy the future of the internet.
+        </div>
+    </div>
+</div>
 </body>
+
+
+<script>
+    RandomFadeout();
+    theater = new GifTheater(screenPlay);
+    theater.LoadMovie();
+</script>
 </html>
