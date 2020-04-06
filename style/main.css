@@ -1,4 +1,9 @@
 
+@font-face {
+    font-family: "Messe Duesseldorf";
+    src: url("fonts/MesseDuesseldorf.tff");
+}
+
 body {
     margin: 0;
     overflow: -moz-scrollbars-vertical;
@@ -196,7 +201,7 @@ nav a{
     text-align: right;
     font-size: 1.5em;
     display: inline-block;
-    font-family: "Messe Duesseldorf";
+    font-family: "Messe Duesseldorf", serif;
     color: #FFF;
     margin-left: 5%;
     text-decoration: none;
